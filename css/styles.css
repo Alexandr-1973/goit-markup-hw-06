@@ -196,11 +196,20 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office-opt.jpg);
+    url(../images/Dark-bg-mob-1x-opt.jpg);
   max-width: 320px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+@media (min-resolution: 192dpi) {
+  .order {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-mob-2x-opt.jpg);
+  }
 }
 .order-section {
   padding-top: 72px;
@@ -901,8 +910,17 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office-opt.jpg);
+      url(../images/Dark-bg-tablet-1x-opt.jpg);
     max-width: 768px;
+  }
+  @media (min-resolution: 192dpi) {
+    .order {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-tablet-2x-opt.jpg);
+    }
   }
   .order-section {
     padding-top: 112px;
@@ -1130,6 +1148,15 @@ body {
       ),
       url(../images/people-office-opt.jpg);
     max-width: 1440px;
+  }
+  @media (min-resolution: 192dpi) {
+    .order {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-2x-opt.jpg);
+    }
   }
   .order-section {
     padding-top: 188px;
